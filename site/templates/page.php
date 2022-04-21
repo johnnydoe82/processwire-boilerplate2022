@@ -3,7 +3,7 @@
 	<head>
 		<?php $root = $pages->get('/');?>
 		<?php include('helpers/helpers.php' ); ?>
-		<?php $version = file_get_contents('version_nr.txt');?>
+		<?php $version = file_get_contents( $paths->templates . 'dist/version_nr.txt');?>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php if ($page->meta_description): ?>
