@@ -1,0 +1,31 @@
+{
+  "name": "poseidon",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-preset-es2015": "*",
+    "browser-sync": "*",
+    "caniuse-lite": "*",
+    "gulp": "4.*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "*",
+    "gulp-concat": "*",
+    "gulp-replace": "*",
+    "gulp-sass": "*",
+    "gulp-svgmin": "*",
+    "gulp-uglify": "*",
+    "modern-normalize": "*",
+    "sass": "*"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gulp-sourcemaps": "^3.0.0",
+    "jquery": "*",
+    "slick-carousel": "*"
+  },
+  "browserslist": [
+    "last 10 version",
+    "> 0.5%"
+  ]
+}

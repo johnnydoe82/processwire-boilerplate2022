@@ -1,0 +1,56 @@
+// Keep first line empty from real code due to scss-compiler bug
+@import "colors";
+@import "breakpoints";
+@import "snippets";
+@import "temp";
+@import "nav-main";
+
+body {
+	min-width: 320px;
+	color: $c-copy;
+}
+
+img,
+svg,
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+a {
+	color: inherit;
+}
+
+input,
+textarea,
+button {
+	font-family: inherit;
+}
+
+.inner {
+	max-width: 90em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-left:3.5%;
+	padding-right:3.5%;
+}
+
+// Hide Vue-JS Elements on load:
+[v-show],
+[v-if] {
+	display: none;
+}
+
+// Sticky Footer
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+

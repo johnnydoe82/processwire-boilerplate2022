@@ -1,0 +1,9 @@
+node_modules/
+.idea
+.DS_Store
+.thumbs
+/site/assets/cache
+/site/assets/logs
+/site/assets/sessions
+/site/config.php
+/title.jpg

@@ -1,0 +1,18 @@
+$breakpoints: 450 620 960 1200 1700;
+
+@mixin brp($name) {
+	@for $i from 1 through length($breakpoints) {
+		$px_value: nth($breakpoints, $i);
+
+		@if $name == 'b'+$i {
+			@media (min-width: #{ $px_value }px) {
+				@content;
+			}
+		}
+		@if $name == 'b'+$i+'max' {
+			@media (max-width: #{ $px_value - 1 }px) {
+				@content;
+			}
+		}
+	}
+}
